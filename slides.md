@@ -67,10 +67,10 @@ HTML with Superpowers ✨
 - 11:00AM How to find off-the-shelf component libraries
 - 11:30AM Coding Challenge
 - 12:00PM Lunch
-- 1:00PM How to style web components with CSS
-- 2:00PM How to write custom web components with JS (Lit)
-- 3:00PM FAQ: Polyfills, Accessibility, Forms, Context API, SEO
-- 4:00PM Wrapup and Q&A
+- 1:00PM How to style Web Components with CSS
+- 2:00PM How to write custom Web Components with JS (Lit)
+- 3:00PM More writing Web Components
+- 4:00PM FAQ, Wrapup, and Q&A
 
 ---
 
