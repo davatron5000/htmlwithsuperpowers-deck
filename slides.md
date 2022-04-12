@@ -19,9 +19,9 @@ canvasWidth: 880
 }
 </style>
 
-# Web Component Foundations
+# HTML with Superpowers&nbsp;✨
 
-HTML with Superpowers ✨
+Web Component Fundamentals
 
 <div class="absolute bottom-10">
   <span class="font-700">
