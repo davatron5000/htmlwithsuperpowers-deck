@@ -50,7 +50,7 @@ HTML with Superpowers ✨
 
 - Course Links
   - Guidebook: https://htmlwithsuperpowers.netlify.app
-  - Slides: 
+  - Slides: https://slideswithsuperpowers.netlify.app/
 - Web Component Links
   - https://web-components-cg.netlify.app/
   - https://github.com/webcomponents-cg
