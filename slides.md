@@ -3,7 +3,7 @@ theme: default
 title: HTML with Superpowers
 layout: cover
 aspectRatio: '16/10'
-canvasWidth: 880
+# canvasWidth: 800
 ---
 
 <style>
@@ -239,7 +239,7 @@ layout: two-cols
 This is what Web Components are famous for; your own custom HTML tag.
 
 - Must have a `-` hyphen
-- Register with `customElement.define()`
+- Register with `customElements.define()`
 
 ::right::
 ```html
@@ -1086,8 +1086,7 @@ slow-element:defined {
   - ✅ Named Shadow Parts?
 - New CSS pseudo-elements 
   - `:host` and `:host-context()`
-  - `::slotted()`
-  - `:defined`
+  - `::slotted()` & `:defined`
 
 ---
 layout: intro
@@ -1124,7 +1123,7 @@ class CustomAlert extends HTMLElement {
   disconnectedCallback() {} // componentWillUnmount
   attributeChangedCallback(oldValue, newValue) {}
 }
-customElement.define('custom-alert', CustomAlert)
+customElements.define('custom-alert', CustomAlert)
 ```
 
 ---
@@ -1184,7 +1183,7 @@ class CustomAlert extends HTMLElement {
   attributeChangedCallback(oldValue, newValue) {}
 }
 
-customElement.define('custom-alert', CustomAlert)
+customElements.define('custom-alert', CustomAlert)
 ```
 
 ---
@@ -1631,7 +1630,7 @@ class: 'bg-slate-50'
 
 ...🤔 but due to the progressive enhance superpowers ✨ of Web Components, you might be possible to structure your LightDOM in such a way that it provides enough of a fallback.
 
-Support for Internet Explorer expires on **June 22, 2022**
+Support for Internet Explorer expires on **June 15th, 2022**
 
 ---
 
